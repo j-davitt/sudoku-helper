@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+.full-board {
+  display: grid;
+  width: 50%;
+  height: auto;
+  /* gap: 1px; */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.board-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 1px; */
+  border: solid 1px black;
+  justify-content: center;
+}
+
+.board-block {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border: solid 1px gray;
+  align-items: center;
+  justify-content: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
